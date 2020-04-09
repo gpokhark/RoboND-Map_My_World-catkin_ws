@@ -16,3 +16,6 @@ To make the robot chase the white ball, open another terminal, navigate to the t
 source devel/setup.bash
 roslaunch ball_chaser ball_chaser.launch
 ```
+
+## Location os the ball to chase
+[my_ball](./my_ball)

@@ -198,4 +198,27 @@
     <axis xyz="0 1 0" rpy="0 0 0"/>
   </joint>
 
+    <!-- colors  -->
+
+    <gazebo reference="left_wheel">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+    <gazebo reference="right_wheel">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+    <gazebo reference="chassis">
+        <material>Gazebo/Green</material>
+    </gazebo>
+
+
+    <gazebo reference="hokuyo">
+        <material>Gazebo/Black</material>
+    </gazebo>
+
+    <gazebo reference="camera">
+        <material>Gazebo/Gray</material>
+    </gazebo>
+
 </robot>
