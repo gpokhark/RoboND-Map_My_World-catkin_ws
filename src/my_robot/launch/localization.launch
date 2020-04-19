@@ -4,8 +4,8 @@
 
     <!--World launch file-->
     <!-- Robot pose -->
-    <arg name="x" default="-5.579"/>
-    <arg name="y" default="4.970"/>
+    <arg name="x" default="2.016"/>
+    <arg name="y" default="-0.936"/>
     <arg name="z" default="0"/>
     <arg name="roll" default="0"/>
     <arg name="pitch" default="0"/>
@@ -53,15 +53,15 @@
         <param name="base_frame_id" value="robot_footprint"/>
         <param name="global_frame_id" value="map"/>
 
-        <!-- If you choose to define initial pose here values are from world.launch
-        <param name="initial_pose_x" value="4.947820"/>
-        <param name="initial_pose_y" value="3.471440"/>
-        -->
-        <!--
+        <!-- If you choose to define initial pose here values are from world.launch -->
+        <param name="initial_pose_x" value="2.016"/>
+        <param name="initial_pose_y" value="-0.936"/>
+       
+        
         Tune parameters
         <param name="min_particles" value="120"/>
         <param name="max_particles" value="3200"/>
-
+        <!--
         <param name="update_min_a" value="pi/6.0"/>
         <param name="update_min_d" value="0.1"/>
         <param name="transform_tolerance" value="0.2"/>
