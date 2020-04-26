@@ -26,7 +26,7 @@ source devel/setup.bash
 roslaunch my_robot mapping.launch
 ```
 
-# Project Overview - RoboND Where Am I?
+# Project Overview - Map My World?
 In this project I have used RTAB-Map ROS package to accurately map the world in the Gazebo simulation environment.
 
 You can have a look at the output simulation video of my project.
