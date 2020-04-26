@@ -198,27 +198,36 @@
     <axis xyz="0 1 0" rpy="0 0 0"/>
   </joint>
 
-    <!-- colors  -->
+  <joint name="camera_optical_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="-1.5707 0 -1.5707"/>
+    <parent link="camera"/>
+    <child link="camera_link_optical"/>
+  </joint>
 
-    <gazebo reference="left_wheel">
-        <material>Gazebo/Blue</material>
-    </gazebo>
+  <link name="camera_link_optical">
+  </link>
 
-    <gazebo reference="right_wheel">
-        <material>Gazebo/Blue</material>
-    </gazebo>
+  <!-- colors  -->
 
-    <gazebo reference="chassis">
-        <material>Gazebo/Green</material>
-    </gazebo>
+  <gazebo reference="left_wheel">
+    <material>Gazebo/Blue</material>
+  </gazebo>
+
+  <gazebo reference="right_wheel">
+    <material>Gazebo/Blue</material>
+  </gazebo>
+
+  <gazebo reference="chassis">
+    <material>Gazebo/Green</material>
+  </gazebo>
 
 
-    <gazebo reference="hokuyo">
-        <material>Gazebo/Black</material>
-    </gazebo>
+  <gazebo reference="hokuyo">
+    <material>Gazebo/Black</material>
+  </gazebo>
 
-    <gazebo reference="camera">
-        <material>Gazebo/Gray</material>
-    </gazebo>
+  <gazebo reference="camera">
+    <material>Gazebo/Gray</material>
+  </gazebo>
 
 </robot>
