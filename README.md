@@ -3,6 +3,9 @@ To view this project, you must have Gazebo and ROS installed on Linux.
 
 With Gazebo and ROS installed follow the steps -
 ```
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+sudo apt-get install git-lfs
+git lfs install
 git clone git@github.com:gpokhark/RoboND-Map_My_World-catkin_ws.git
 cd RoboND-Map_My_World-catkin_ws/src
 catkin_init_workspace
@@ -39,6 +42,12 @@ I have included my `rtabmap.db` file in the location [rtabmap.db](./src/my_robot
 
 `./src/my_robot/ros/rtabmap.db`
 
+This is a large file stored using git lfs. You will have to [install git-lfs](https://github.com/git-lfs/git-lfs/wiki/Installation) to download this file while cloning.
+```
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+sudo apt-get install git-lfs
+git lfs install
+```
 To start the mapping databse use the following commands:
 ```
 source devel/setup.bash
